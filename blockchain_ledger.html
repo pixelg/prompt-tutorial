@@ -1,0 +1,68 @@
+
+         <!DOCTYPE html>
+         <html lang="en">
+         <head>
+             <meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <title>Blockchain Ledger</title>
+             <style>
+                table {
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+                th, td {
+                    border: 1px solid black;
+                    padding: 8px;
+                    text-align: left;
+                }
+                th {
+                    background-color: #f2f2f2;
+                }
+             </style>
+         </head>
+         <body>
+           <h1>Blockchain Ledger</h1>
+           <table>
+               <thead>
+                   <tr>
+                       <th>Timestamp</th>
+                       <th>Data</th>
+                       <th>Previous Hash</th>
+                       <th>Hash</th>
+                   </tr>
+               </thead>
+               <tbody>
+         
+            <tr>
+                <td>2025-02-02T23:59:54.902325</td>
+                <td>Genesis Block</td>
+                <td>0</td>
+                <td>7cbccba9d0df81a468fa44b2964cc2764289d38a6f0bafe5c5a345d0f59e49be</td>
+            </tr>
+        
+            <tr>
+                <td>2025-02-02T23:59:54.902339</td>
+                <td>Transaction 1: Alice sent 10 coins to Bob</td>
+                <td>7cbccba9d0df81a468fa44b2964cc2764289d38a6f0bafe5c5a345d0f59e49be</td>
+                <td>5558d83f883f687e224d7f9f62f4c9a460ce63ec7f937f5516f7662c0ae9217d</td>
+            </tr>
+        
+            <tr>
+                <td>2025-02-02T23:59:54.902343</td>
+                <td>Transaction 2: Bob sent 5 coins to Charlie</td>
+                <td>5558d83f883f687e224d7f9f62f4c9a460ce63ec7f937f5516f7662c0ae9217d</td>
+                <td>f61378bc510bc424b68810581bfd132eef4055f1de090f4413c1068a1d4d4095</td>
+            </tr>
+        
+            <tr>
+                <td>2025-02-02T23:59:54.902346</td>
+                <td>Transaction 3: Charlie mined 2 coins</td>
+                <td>f61378bc510bc424b68810581bfd132eef4055f1de090f4413c1068a1d4d4095</td>
+                <td>c89a73ffa4aeeee81615eb31603f03d874391c6ee8a01fa765eb779706291cd9</td>
+            </tr>
+        
+               </tbody>
+           </table>
+         </body>
+         </html>
+         
