@@ -462,3 +462,4 @@ python3 blockchain_output_html.py
 ```
 It created a file called blockchain_ledger.html
 
+![blockchain-html-results.png](blockchain-html-results.png)
